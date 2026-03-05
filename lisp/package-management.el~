@@ -1,0 +1,6 @@
+;; presumably to do with package management
+
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa-stable" . "https://stable.melpa.org/packages/"))
+(add-to-list 'package-pinned-packages '(telega . "melpa-stable"))

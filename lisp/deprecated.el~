@@ -1,0 +1,9 @@
+;; Trying to get mobileorg working
+(setq org-directory "~/org")
+(setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
+;; (setq org-agenda-files "~/org")
+;; This didn't work on two levels...
+;; Firstly the variable can't be a folder
+;; Secondly it's apparently not the best way of doing it
+;; Best to use C-c [
+(setq org-mobile-inbox-for-pull "~/org/inbox.org")

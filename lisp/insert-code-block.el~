@@ -1,0 +1,13 @@
+(defun insert-code-block (language)
+  "Inserts any code block into buffer at point."
+  (interactive "slanguage (all lower case): ")
+  (setq text-to-insert (format "#+begin_src %s\n\n#+end_src" language))
+  ;;(message text-to-insert)
+  (insert text-to-insert)
+  (previous-line))
+
+(global-set-key (kbd "C-c k") 'insert-code-block)
+
+
+
+

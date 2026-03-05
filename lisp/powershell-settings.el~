@@ -1,0 +1,3 @@
+(require 'koopa-mode)
+
+(defalias 'koopa-mode 'powershell-mode)

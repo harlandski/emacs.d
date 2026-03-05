@@ -1,0 +1,7 @@
+(defun javascriptblock ()
+  "Inserts javascript code block into buffer at point."
+  ;; The (interactive) below is essential, otherwise nothing will 'work'
+  (interactive)
+  (insert "#+begin_src javascript\n\n#+end_src"))
+
+(global-set-key (kbd "C-c j") 'javascriptblock)

@@ -1,0 +1,5 @@
+;; Make minibuffer history persist
+(savehist-mode 1)
+
+;; Make info history persist
+(info-persist-history-mode 1)

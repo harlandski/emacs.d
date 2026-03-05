@@ -1,0 +1,13 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("grep"
+ (front-context-string . "\n2.1.3 General O")
+ (rear-context-string . "nd-line Options\n")
+ (position . 8437)
+ (last-modified 26947 34017 404506 384000)
+ (filename . "/usr/share/info/grep")
+ (info-node . "General Output Control")
+ (handler . Info-bookmark-jump))
+)
