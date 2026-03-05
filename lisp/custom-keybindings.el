@@ -1,9 +1,12 @@
-(global-set-key (kbd "C-c D") 'dice)
-(global-set-key (kbd "C-c d") 'die)
-(global-set-key (kbd "C-c k") 'insert-code-block) ;; kodeblock
-(global-set-key (kbd "C-c j") 'javascriptblock)
-(global-set-key (kbd "C-c J") 'javablock)
-(global-set-key (kbd "C-c q") 'calendar) ;; qalendar
+;; Note it's necessary to quote the name of the function
+;; And best practice to preface that quote with #
+(global-set-key (kbd "C-c D") #'dice)
+(global-set-key (kbd "C-c d") #'die)
+(global-set-key (kbd "C-c h") #'hello)
+(global-set-key (kbd "C-c k") #'insert-code-block) ;; kodeblock
+(global-set-key (kbd "C-c j") #'javascriptblock)
+(global-set-key (kbd "C-c J") #'javablock)
+(global-set-key (kbd "C-c q") #'calendar) ;; qalendar
 ;; (global-set-key (kbd "C-c p") 'koopa-send-line-to-powershell)
 ;; (global-set-key (kbd "C-c P") 'koopa-run-powershell)
 ;; Rebind help to helpful

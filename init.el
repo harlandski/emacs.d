@@ -21,6 +21,7 @@
 
 (load "die")
 (load "dice")
+(load "hello")
 (load "javascriptblock")
 (load "javablock")
 (load "insert-code-block")
