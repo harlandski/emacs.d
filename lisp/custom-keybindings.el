@@ -27,3 +27,7 @@
 ;; By default, C-h F is bound to `Info-goto-emacs-command-node'. Helpful
 ;; already links to the manual, if a function is referenced there.
 (global-set-key (kbd "C-h F") #'helpful-function)
+;; replace C-x { and C-x } with something more practical
+(global-set-key (kbd "C-{") #'shrink-window-horizontally)
+(global-set-key (kbd "C-}") #'enlarge-window-horizontally)
+
